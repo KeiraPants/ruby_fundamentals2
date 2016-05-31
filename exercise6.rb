@@ -10,5 +10,8 @@ end
 print_list(grocery_list)
 #Pushes "rice" to apprend the array
 grocery_list.push("rice")
-#Reprints the list, including "rice"
+#Reprints the grocery_list, including "rice"
 print_list(grocery_list)
+
+
+puts grocery_list.length
