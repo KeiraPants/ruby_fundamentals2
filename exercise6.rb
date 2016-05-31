@@ -29,3 +29,10 @@ puts grocery_list[1]
 grocery_list.sort.each do |item|
   puts "*#{item}"
 end
+
+#Delete salmon from list and redisplay list
+grocery_list.delete("salmon")
+
+grocery_list.sort.each do |item|
+  puts "*#{item}"
+end
