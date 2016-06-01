@@ -37,7 +37,7 @@ students.delete(:cohort2)
 #Redisplaying the students hash, without :cohort2
 puts students
 
-#######BONUS: Calculate number of students across all cohorts
+#######BONUS: Calculate number of students across all cohorts using .each
 
 #Convert students hash to an array
 total_students = students.to_a
